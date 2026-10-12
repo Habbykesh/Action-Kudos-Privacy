@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy – Action Kudos Bot</title>
+<style>
+  :root { --ink:#1b1f2a; --muted:#5b6475; --line:#e3e6ee; --bg:#f7f8fb; --accent:#3b5bdb; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.7 Georgia, "Times New Roman", serif; }
+  main { max-width:720px; margin:0 auto; padding:48px 20px 80px; }
+  h1 { font-size:2rem; line-height:1.25; margin:0 0 4px; }
+  h2 { font-size:1.25rem; margin:40px 0 8px; padding-top:20px; border-top:1px solid var(--line); }
+  p, li { margin:0 0 12px; }
+  ul { padding-left:22px; }
+  .meta { color:var(--muted); margin-bottom:28px; }
+  a { color:var(--accent); }
+  a:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy Policy</h1>
+  <p class="meta">Action Kudos Bot · Last updated: October 12, 2026</p>
+
+  <p>This policy explains what data the Action Kudos Bot ("the Bot") collects, why, who it is shared with, and how you can have it removed. By participating in a server where the Bot is active, you agree to this policy.</p>
+
+  <h2>What the Bot does</h2>
+  <p>The Bot runs two systems that server admins switch on or off separately. The <strong>thank-you recognition</strong> system detects thank-you replies, uses an AI check to decide whether they reflect genuine help, and rewards the helper with a temporary role and Action Points. The <strong>Pidgin enforcement</strong> system detects admin-configured words and phrases and applies warnings, roles, point deductions, or timeouts.</p>
+
+  <h2>Data we process</h2>
+  <ul>
+    <li><strong>Message content</strong> in servers where an admin has enabled a system. The Bot reads messages to detect thank-yous and configured words. It does not read direct messages and ignores messages from bots.</li>
+    <li><strong>Discord IDs</strong>: user, server, channel, and message IDs.</li>
+    <li><strong>Reward records</strong>: who helped whom, the message IDs involved, the reward amount, the outcome (rewarded, rejected by the AI, failed, or duplicate), and timestamps. Message text is not stored in these records.</li>
+    <li><strong>Pidgin offence records</strong>: user ID, the matched terms, the <strong>text of the offending message</strong>, the penalty applied, whether it succeeded, whether the message was edited, and timestamps.</li>
+    <li><strong>Server settings</strong>: on/off status, role IDs, excluded channels, custom phrases and terms added by admins, and the ID of the admin who added them.</li>
+    <li><strong>Audit logs</strong>: actions are posted to a channel chosen by the server's admins and may include the relevant message text.</li>
+  </ul>
+  <p>The Bot does not collect email addresses, passwords, payment information, or wallet keys.</p>
+
+  <h2>AI processing (Google Gemini)</h2>
+  <p>When a thank-you is detected, the thank-you message, the message it replies to, and up to two preceding messages are sent to Google's Gemini API, which classifies the thank-you as genuine help or a pleasantry. It is used only for that classification. The Pidgin system does not use AI. Google's handling of API data is governed by Google's own terms and privacy policy.</p>
+
+  <h2>Why we use this data</h2>
+  <p>To detect thank-yous and configured words, verify genuine help, apply rewards and penalties, prevent abuse and duplicate rewards, keep audit records for moderators, and recover from downtime. We do not sell your data, use it for advertising, or build profiles of you.</p>
+
+  <h2>Who can see it</h2>
+  <p>Server admins and moderators can see audit logs and run the Bot's management commands. Data is stored with our hosting and database provider (Railway), and relevant message text is sent to Google as described above. Data may also be disclosed if required by law.</p>
+
+  <h2>Retention</h2>
+  <p>Records are kept for as long as they are needed to run the Bot's systems and for moderation and audit purposes, unless you ask us to delete them.</p>
+
+  <h2>Your choices and deletion requests</h2>
+  <p>You can ask us at any time to access, correct, or delete the data we hold about you, including stored message text. Contact us with your Discord user ID using the details below. We will respond within a reasonable time. Server admins can also turn either system off at any time, and no message is processed while its system is off.</p>
+
+  <h2>Security</h2>
+  <p>Data is stored in a private database with restricted access. No system is perfectly secure, but we take reasonable steps to protect it.</p>
+
+  <h2>Children</h2>
+  <p>The Bot is intended for users who meet Discord's minimum age requirement. We do not knowingly collect data from anyone under that age.</p>
+
+  <h2>Changes</h2>
+  <p>We may update this policy and will change the date above when we do. Continued use of the Bot means you accept the updated policy.</p>
+
+  <h2>Contact</h2>
+  <p>Questions or deletion requests: <strong>habeebl797@gmail.com</strong> or Discord: <strong>Habbykesh</strong></p>
+</main>
+</body>
+</html>
